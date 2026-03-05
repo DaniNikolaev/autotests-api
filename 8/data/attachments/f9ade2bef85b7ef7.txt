@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA1VDIyOjAyOjQ0LjIzNjIyNSIsInVzZXJfaWQiOiI1MDc1YWUwYy04ZTI2LTRlNmMtOGRhZi04OWM3NTBiNTg1ZTEifQ.4oYOGNolrXDviFXLVgT7HcawVNOib9s2IHKWBB_2pBQ' \
+ -H 'content-length: 384' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Name even group stock.","maxScore":91,"minScore":17,"description":"Firm likely could while trip lawyer.\nCandidate child fight answer scene parent. Let process future senior cell arrive claim. Much ten stay question movement article.","previewFileId":"ad7fe732-2890-4c9a-a34d-36bf5b578310","estimatedTime":"10 weeks","createdByUserId":"5075ae0c-8e26-4e6c-8daf-89c750b585e1"}'

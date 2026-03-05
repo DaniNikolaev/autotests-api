@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/fb09529d-a666-40ac-9787-dbbf65c6b0e4' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA1VDIyOjAyOjQzLjk1NTQzNCIsInVzZXJfaWQiOiJjNGQzZjcwNS1hN2JhLTRkMjUtOTAyNy04YmVjYjRlN2Y2OTUifQ.2ZmCcWBROy_g0hm-tqqFRbHug1zZKixuEB0HUQR5Ebc' \
+ -H 'content-length: 301' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Career should significant line yes.","maxScore":57,"minScore":20,"description":"Bar pressure own trial. Couple vote actually million. Lose miss school enough need former.\nUnder authority network oil usually program prepare. Office training democratic too either.","estimatedTime":"6 weeks"}'

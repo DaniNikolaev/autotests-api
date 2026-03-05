@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises/96cca732-9b89-409d-b319-c1ad26daa10c
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises/96cca732-9b89-409d-b319-c1ad26daa10c
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:83 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:23 Check exercise
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to 96cca732-9b89-409d-b319-c1ad26daa10c
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Another per ten other generation sea.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'course_id' equals to 6d216f1d-08d7-4480-80ba-81ba6365fa2d
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 90
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 28
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'order_index' equals to 34
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Western boy person. Either hit matter a him simple no. Life personal movie night particularly off.
+Space actually rate thousand professor. Entire government enough sort around heavy.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

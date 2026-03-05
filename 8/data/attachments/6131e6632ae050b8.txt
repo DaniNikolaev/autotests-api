@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA1VDIyOjAyOjQ0Ljg0NDQzMiIsInVzZXJfaWQiOiJkZjdjNWQ0YS00MDhkLTRlYmUtYWVmNS04MzU2ODFlODU4ZjEifQ.ADa3s21YaCAVJ5NyCNMd6grzModR_l6_qTHffz0gOzs' \
+ -H 'content-length: 417' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Cultural financial than nearly.","maxScore":74,"minScore":16,"description":"Life low agency prevent court some serious little. Born build fact sit experience country like.\nEither eat magazine prepare into note. Ability perhaps how feel everything. Herself deep keep.","previewFileId":"d7e09974-8345-41db-bc2d-eeb5579e9c42","estimatedTime":"8 weeks","createdByUserId":"df7c5d4a-408d-4ebe-aef5-835681e858f1"}'

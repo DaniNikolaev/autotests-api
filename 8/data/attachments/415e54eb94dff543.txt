@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA1VDIyOjAyOjQzLjQwNTMxMyIsInVzZXJfaWQiOiI5NGVhZjQ0MC1jNjNkLTRiOTktYWZkMi03Yjk4NjVkNjQyZTgifQ.qLIJF7filzM3YnHY-nOklKPBRa480K9SBiAVEAZ_1ZY' \
+ -H 'content-length: 432' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Since weight over big increase care weight.","maxScore":85,"minScore":3,"description":"Organization agree room drive. Instead down century power relate share less.\nMoney way hope lose worker fund age. World view hot chair. Structure old participant situation present order popular.","previewFileId":"2213fe0e-aafa-49ca-b544-9e8a6cf5f458","estimatedTime":"6 weeks","createdByUserId":"94eaf440-c63d-4b99-afd2-7b9865d642e8"}'

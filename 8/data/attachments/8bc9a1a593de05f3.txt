@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA1VDIyOjAyOjQ3Ljc2NzE0MyIsInVzZXJfaWQiOiJkYzgwM2M1MC1mYWFiLTRkNGMtOWZlZi1jZWFhMWRjNTgwN2IifQ.9Bi3OWcsOqPp2g7uVJiqFfI6HymTsGqKGVat16Fboyo' \
+ -H 'content-length: 353' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Sea produce set gun number view look.","maxScore":99,"minScore":7,"description":"Role strong would dream. Notice too religious doctor people.\nSit or let item long what practice. Reason be position week.","previewFileId":"a134f3b1-2621-4cc5-99cd-771636841247","estimatedTime":"8 weeks","createdByUserId":"dc803c50-faab-4d4c-9fef-ceaa1dc5807b"}'

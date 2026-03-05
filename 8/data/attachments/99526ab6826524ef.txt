@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA1VDIyOjAyOjQzLjk1NTQzNCIsInVzZXJfaWQiOiJjNGQzZjcwNS1hN2JhLTRkMjUtOTAyNy04YmVjYjRlN2Y2OTUifQ.2ZmCcWBROy_g0hm-tqqFRbHug1zZKixuEB0HUQR5Ebc' \
+ -H 'content-length: 403' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Picture relate professor skin environmental question push.","maxScore":61,"minScore":1,"description":"Away manage central least clear more man. Success series direction.\nDoctor pick this mission mission policy rather. Understand attorney some research.","previewFileId":"17da6dae-f700-45e9-a1fb-485a181cd856","estimatedTime":"6 weeks","createdByUserId":"c4d3f705-a7ba-4d25-9027-8becb4e7f695"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA1VDIyOjAyOjQ0Ljg0NDQzMiIsInVzZXJfaWQiOiJkZjdjNWQ0YS00MDhkLTRlYmUtYWVmNS04MzU2ODFlODU4ZjEifQ.ADa3s21YaCAVJ5NyCNMd6grzModR_l6_qTHffz0gOzs' \
+ -H 'content-length: 369' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Another per ten other generation sea.","courseId":"6d216f1d-08d7-4480-80ba-81ba6365fa2d","maxScore":90,"minScore":28,"orderIndex":34,"description":"Western boy person. Either hit matter a him simple no. Life personal movie night particularly off.\nSpace actually rate thousand professor. Entire government enough sort around heavy.","estimatedTime":"2 weeks"}'
