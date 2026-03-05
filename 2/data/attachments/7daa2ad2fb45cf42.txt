@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA1VDIwOjU1OjE5Ljc4NTk2NSIsInVzZXJfaWQiOiIwYTQ1OGJkMS03NjJhLTQ0NWItYmIwOC05NGNmNDRhZjdlMTYifQ.gby5gFeDlGcqhekQcWZ31WtPDXTuNdOr5FuXPy2QMxs' \
+ -H 'content-length: 282' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Weight bit main face.","courseId":"20b50088-7909-4f20-8800-101ff68b3149","maxScore":79,"minScore":15,"orderIndex":1,"description":"Read then middle member hit. Management past forward dream develop buy. Task discover consider gas civil meeting.","estimatedTime":"1 weeks"}'

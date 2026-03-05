@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA1VDIwOjU1OjIzLjU4OTUyMiIsInVzZXJfaWQiOiIwZTgwNjUxNy1iZDJjLTRmZjUtOGE4Ni05Y2RlOTJhYTNiODcifQ.KZTm5DAK1FpkAZZjlXBoZN0VeGr49rff2PkXfgZ4ogg' \
+ -H 'content-length: 407' \
+ -H 'content-type: application/json' \
+ -d '{"title":"War by field young hit.","maxScore":65,"minScore":20,"description":"Serious authority available create somebody front. Answer traditional card conference doctor. Large decision a to put choose anything. Process hotel religious bank determine suggest finish.","previewFileId":"75560238-fc61-44a5-a996-798b84c643e6","estimatedTime":"5 weeks","createdByUserId":"0e806517-bd2c-4ff5-8a86-9cde92aa3b87"}'
