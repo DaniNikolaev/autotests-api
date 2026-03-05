@@ -27,7 +27,7 @@ jobs:
       - name: Install test server dependencies
         run: pip install -r qa-automation-engineer-api-course/requirements.txt
 
-      - name: Start a test server
+      - name: Start a test  server
         env:
           APP_HOST: "http://localhost:8000"
           DATABASE_URL: "sqlite+aiosqlite:///./local.db"
