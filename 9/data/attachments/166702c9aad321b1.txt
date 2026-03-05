@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA1VDIyOjA2OjI3Ljk3Njc3NiIsInVzZXJfaWQiOiIyOTQ5ZWQ2Ni1hZDNjLTRmMDMtYjNhMi03YjhkOTI3ZTQwNDYifQ.q92eh6dZjQvBnBZCeC23N7IU8vw4bc2x7sQuMvG3JnE' \
+ -H 'content-length: 317' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Player research beyond garden.","maxScore":51,"minScore":10,"description":"Star cold huge reason class various in. Hard win six about inside. Develop dinner cost last.","previewFileId":"589aeb79-7e29-4ae2-b96f-ac76fb8719f8","estimatedTime":"4 weeks","createdByUserId":"2949ed66-ad3c-4f03-b3a2-7b8d927e4046"}'

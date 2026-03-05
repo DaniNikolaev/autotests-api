@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA1VDIyOjA2OjI3LjE2NTA4NyIsInVzZXJfaWQiOiI1NGViNDRjMi1iMjA2LTRjODctYjQxNi1jYjg2Nzc5MDFlMTYifQ.3TycKFq6wpIzVaMgzja5XP-MPCpSromyu05sGlllxjQ' \
+ -H 'content-length: 397' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Identify over civil time hold finally.","maxScore":69,"minScore":21,"description":"Tough either speech yet yourself. Beyond between report skill land hundred. Hear garden production reason continue garden.\nLearn he bit participant. Image sea son.","previewFileId":"57321288-6060-4c81-a492-51d1d4391dd7","estimatedTime":"9 weeks","createdByUserId":"54eb44c2-b206-4c87-b416-cb8677901e16"}'

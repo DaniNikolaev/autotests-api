@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA1VDIyOjA2OjI2LjU0MzA2NiIsInVzZXJfaWQiOiIwODQxOWJhMy05ZjhhLTQ2MGItOGNmOS1jZWFkYjgzOWUwNTQifQ.qIH-qpG1e9rRvjlY9NQMIgoBT-CoynnQ9KWUyWnFidA' \
+ -H 'content-length: 300' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Top both cut.","maxScore":92,"minScore":3,"description":"Relationship know sport and big box. Military floor hard country. Poor speak agree case last.","previewFileId":"92f630e4-2929-4be5-bd94-8778693f3507","estimatedTime":"6 weeks","createdByUserId":"08419ba3-9f8a-460b-8cf9-ceadb839e054"}'
