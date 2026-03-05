@@ -47,6 +47,7 @@ jobs:
           pytest -m regression --alluredir=./allure-results --numprocesses auto
 
       - name: Upload artifact
+        if: always()
         uses: actions/upload-artifact@v7
         with:
           name: allure-results
@@ -55,6 +56,7 @@ jobs:
 
 
   publish-report:
+    if: always()
     needs: run-tests
     runs-on: ubuntu-latest
 
