@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA1VDIxOjExOjE0LjMxNDQ1MSIsInVzZXJfaWQiOiI2OTc4YzA1YS0wZjg1LTQzNmQtOTdiOC1mMDAxNGQ3ZTFjNTEifQ.Gn0ZtOM-0TrGh-hHvpiccSAJqFNbaMxusO-uecBlVg4' \
+ -H 'content-length: 355' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Study democratic gun art sort than direction.","maxScore":68,"minScore":15,"description":"Argue west state none international expert. Raise quickly walk deal me leave place. Loss stage process health yard.","previewFileId":"68644595-7bbd-4b3d-8765-7dd98e5360ca","estimatedTime":"8 weeks","createdByUserId":"6978c05a-0f85-436d-97b8-f0014d7e1c51"}'

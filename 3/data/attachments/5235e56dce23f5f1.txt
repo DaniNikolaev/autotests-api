@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/fa3a1824-bbb8-4e06-8dde-f126ac82b951' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA1VDIxOjExOjEwLjY5MDg0NyIsInVzZXJfaWQiOiI4NGM2NzRmZi05Y2I2LTRkN2YtOGQxYi0xM2QzZDYyZTJiZDAifQ.w20EiVzdJmFtEHYs6FaaekOOh0yoqyjAs0d5-_xrNPM' \
+ -H 'content-length: 268' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Simple anyone determine become.","maxScore":96,"minScore":20,"description":"Miss kitchen effort whether cell happy. Consider not five happen idea.\nCongress simple major street despite could establish. Authority picture when door.","estimatedTime":"5 weeks"}'

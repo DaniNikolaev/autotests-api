@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/courses/fa3a1824-bbb8-4e06-8dde-f126ac82b951
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses/fa3a1824-bbb8-4e06-8dde-f126ac82b951
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:78 Check update course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Simple anyone determine become.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 96
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 20
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Miss kitchen effort whether cell happy. Consider not five happen idea.
+Congress simple major street despite could establish. Authority picture when door.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

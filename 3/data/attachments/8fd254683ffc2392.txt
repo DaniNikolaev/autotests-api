@@ -1,0 +1,31 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/courses/fd3de64e-82f1-4c23-9ef9-c5cd78f39ece
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses/fd3de64e-82f1-4c23-9ef9-c5cd78f39ece
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:47 Check get course response
+INFO     COURSES_ASSERTIONS:courses.py:25 Check course
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to fd3de64e-82f1-4c23-9ef9-c5cd78f39ece
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Study democratic gun art sort than direction.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 68
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 15
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Argue west state none international expert. Raise quickly walk deal me leave place. Loss stage process health yard.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 8 weeks
+INFO     USERS_ASSERTIONS:users.py:54 Check user
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to 6978c05a-0f85-436d-97b8-f0014d7e1c51
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'email' equals to marcbarnes@example.com
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'first_name' equals to Kristi
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'middle_name' equals to Benjamin
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'last_name' equals to Snyder
+INFO     FILES_ASSERTIONS:files.py:40 Check file
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to 68644595-7bbd-4b3d-8765-7dd98e5360ca
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'filename' equals to c97f254d-d21e-4bd5-97a3-1d3f9e3218a8.jpg
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'directory' equals to tests
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'url' equals to http://localhost:8000/static/tests/c97f254d-d21e-4bd5-97a3-1d3f9e3218a8.jpg
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

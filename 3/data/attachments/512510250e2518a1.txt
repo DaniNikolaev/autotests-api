@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA1VDIxOjExOjE1LjE0MjA2NiIsInVzZXJfaWQiOiI0MmQ1NjllNi0yZTMzLTRhYWQtOTkyYy05YmM3ODgxNjllMzkifQ.H92wYs7LJoZfLapUEMoB1dXGqzQOVexK0Di10zv6yGY' \
+ -H 'content-length: 421' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Body leg everyone they focus.","maxScore":92,"minScore":26,"description":"Turn point quality everything PM exist discover. Pressure surface television weight impact police.\nStar pick yet year president out clear. Account significant heart participant million major room.","previewFileId":"829ff909-6819-4620-a5f9-a5816fd0149f","estimatedTime":"2 weeks","createdByUserId":"42d569e6-2e33-4aad-992c-9bc788169e39"}'

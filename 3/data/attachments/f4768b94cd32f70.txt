@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA1VDIxOjExOjE0LjU5MTg3MSIsInVzZXJfaWQiOiIzMDdiN2JhYS0xNGE3LTQ4MjktYjA1ZS1kNDlkZDBjMTg0MzgifQ.73E0Qg4M0IpYZZjIkgcaNjFpNPinZSNPsfcnXN6l6rk' \
+ -H 'content-length: 303' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Real yard high represent history.","maxScore":69,"minScore":30,"description":"Why value stock action physical. Pull the including effect itself practice.","previewFileId":"dd7aa732-fae7-4836-8381-f5af47bc4d6e","estimatedTime":"1 weeks","createdByUserId":"307b7baa-14a7-4829-b05e-d49dd0c18438"}'
