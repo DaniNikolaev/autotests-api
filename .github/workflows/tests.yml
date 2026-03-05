@@ -50,6 +50,7 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: allure-results
+          path: allure-results
 
 
 
@@ -62,6 +63,7 @@ jobs:
         uses: actions/download-artifact@v8
         with:
           name: allure-results
+          path: allure-results
 
       - name: Get Allure history
         uses: actions/checkout@v6
