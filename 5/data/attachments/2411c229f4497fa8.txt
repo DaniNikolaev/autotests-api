@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises/640dedb6-a405-4642-a837-00f103fc1196
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises/640dedb6-a405-4642-a837-00f103fc1196
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:83 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:23 Check exercise
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to 640dedb6-a405-4642-a837-00f103fc1196
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Into story scene foot put people act not.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'course_id' equals to 9548f1d2-1d09-41c2-9785-3f7f63e44bde
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 80
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 6
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'order_index' equals to 79
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Expect police us listen image right. None truth world five. Government most mean including.
+Turn radio become attack. Whole choose rock miss bag. Decade age none could someone know.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema
