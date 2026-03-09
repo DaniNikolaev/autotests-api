@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/885fa6d7-9c62-4665-bc9b-bba75176422b' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjQyOjE1LjgwMjk1NyIsInVzZXJfaWQiOiI5NDUzNzZhYi0zZWQ3LTRjODYtOWI0OS0wYTRhMGEyMzQ4NmIifQ.0d_mTgsH0aaIy-qbBwaLbtRGMLpmi9C5yN0nAm6kv8E' \
+ -H 'content-length: 262' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Subject available also.","maxScore":61,"minScore":28,"description":"With interesting organization agent. Add improve reveal. Body tree state rest key listen standard manage. Participant Congress marriage design time fly air.","estimatedTime":"4 weeks"}'

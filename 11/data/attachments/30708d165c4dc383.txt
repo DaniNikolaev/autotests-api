@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjQyOjE5Ljk0NjI3MSIsInVzZXJfaWQiOiIxZDg3NmFiNC00ZTRlLTRiNmYtYmIwMi1iZjMzZTMxNDBmN2QifQ.ZKGWbkL0GcqBmjCwuUKqICmt7EY7_PV1CvVs3Qp3RNE' \
+ -H 'content-length: 321' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Charge rather hand discuss.","maxScore":76,"minScore":14,"description":"Race now wind drug product career our. Real attention career again. Model science cover four month.","previewFileId":"7ddf9363-0a58-43d6-a458-e8854479fb77","estimatedTime":"6 weeks","createdByUserId":"1d876ab4-4e4e-4b6f-bb02-bf33e3140f7d"}'

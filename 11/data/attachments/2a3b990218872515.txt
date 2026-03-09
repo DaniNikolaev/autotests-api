@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjQyOjE5LjA3NjUxMSIsInVzZXJfaWQiOiI4N2YzODVmOC1mOWRlLTQ4ODEtODJjZS0yNDY0YmNjNTg1NDMifQ.nqpNkyXZ46L0ZiPpCpougjg9S08r-4dQciKcBTsgBO8' \
+ -H 'content-length: 379' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Sure student whether anything gas its.","maxScore":59,"minScore":2,"description":"Day citizen experience total.\nWorker agree source a that. Food education father million name minute second set.\nPoor say get. Baby water perform.","previewFileId":"588e8d85-9213-405a-b87c-a650f556aa99","estimatedTime":"4 weeks","createdByUserId":"87f385f8-f9de-4881-82ce-2464bcc58543"}'

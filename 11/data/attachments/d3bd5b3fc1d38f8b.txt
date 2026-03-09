@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:96 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Statement environment hope.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 74
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 21
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Give chair western. Plant fall response. Nice worry expert three other let present.
+Hear central million energy. Machine economic inside many contain painting.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 2 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'created_by_user_id' equals to e6069e01-5827-428b-96ea-8ded1087da8c
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'preview_file_id' equals to 4eac2668-94e5-45c6-9f4a-43438eaf72cf
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

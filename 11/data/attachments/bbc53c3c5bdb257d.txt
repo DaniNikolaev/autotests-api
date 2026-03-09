@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjQyOjE4Ljc1NjAwNiIsInVzZXJfaWQiOiJjOWU0MWRlMy1iYTAzLTQyZDMtOTg3Yi1mODBiNjY5ZDcxMmUifQ.CsuAOkwq_d9YtYhWOiQf_-5xNFwjcyIliiBNaBPC84Y' \
+ -H 'content-length: 339' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Reality hair general meeting Republican.","maxScore":59,"minScore":8,"description":"Carry black forget two question. Image edge like top. Take whole imagine find specific old rock official.","previewFileId":"c481635e-34ed-4567-95dd-4dc452cd4801","estimatedTime":"8 weeks","createdByUserId":"c9e41de3-ba03-42d3-987b-f80b669d712e"}'
