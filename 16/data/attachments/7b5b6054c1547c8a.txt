@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjMyOjA0Ljk1MDU1NCIsInVzZXJfaWQiOiJlODhmZDk0Yy0xN2VlLTRiNmEtYTg4My04ZTUyMmRiMjI5NmQifQ.hOJWSTIqAWZpud9_oikgPpBfRwxk7CDrnXGd4LqLzec' \
+ -H 'content-length: 419' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Trip both pattern fact easy.","maxScore":71,"minScore":9,"description":"Do color side hear site movement send. Recognize threat wish land.\nImportant appear cup TV buy also physical control.\nWithout catch hour blue baby. Side blue news take price. Appear our sign way.","previewFileId":"e71aa3cb-6f0a-492c-8d4a-b71535bd47ac","estimatedTime":"4 weeks","createdByUserId":"e88fd94c-17ee-4b6a-a883-8e522db2296d"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjMyOjA5LjM1NDA5NCIsInVzZXJfaWQiOiIxZDZkZTIxYi0yOWYwLTQ5OTctOTZhYS05MjJkYjUyOTc0N2EifQ.RMdv0MDV5yfbD3kccNINZukOByWwvHZjvWJeSCbaKSQ' \
+ -H 'content-length: 400' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Catch policy past expect life.","maxScore":64,"minScore":27,"description":"Many throughout approach. Wall treat early suggest summer near. Ready respond line write food half.\nAway under even group. Financial ground water kid conference data federal.","previewFileId":"764574fa-bce6-4f63-8b26-661c73eae8c1","estimatedTime":"4 weeks","createdByUserId":"1d6de21b-29f0-4997-96aa-922db529747a"}'

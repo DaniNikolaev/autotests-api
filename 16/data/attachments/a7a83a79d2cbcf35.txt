@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/courses/95474872-e7cf-44ce-9415-ae1b25ab32b1
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses/95474872-e7cf-44ce-9415-ae1b25ab32b1
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:78 Check update course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Thing pay center least during.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 99
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 18
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Cell reality fall over since sign. Certainly kitchen home suggest. Former make year create.
+Political statement look pull. Pay position change guy impact. Sense human safe last.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

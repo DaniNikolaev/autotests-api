@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjMyOjA2LjEyMjI0NCIsInVzZXJfaWQiOiIzODc2NGU3MC00NmZmLTRiMTUtYjI3OC1kMTM5N2NlNTI5ZjUifQ.Poo6a2C8sUnbxZ9HBXL4j31GavTZxrx_3fwsNH1ahu4' \
+ -H 'content-length: 322' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Structure hard bit drug positive hold word.","maxScore":50,"minScore":21,"description":"Pattern firm trip reality event. Account road stay opportunity maybe father mention.","previewFileId":"72fb7fbf-0487-4e13-b7b6-1f43ea129089","estimatedTime":"8 weeks","createdByUserId":"38764e70-46ff-4b15-b278-d1397ce529f5"}'

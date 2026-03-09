@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjMyOjA3LjU5MzIyNCIsInVzZXJfaWQiOiJjNTQ3ZjA5Mi0wZGNjLTQ0NGYtOWU2MC04ZDEzMmVlMWQzM2EifQ.yZ1-tcCQzUDGkd_1cL0XPmQBVyLoggQ84TaP_VtcXzI' \
+ -H 'content-length: 359' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Animal two group sell.","maxScore":92,"minScore":18,"description":"Especially official us interview partner soldier reflect continue. Car across probably final. Data instead recognize herself like nice nearly.","previewFileId":"24afb01a-135d-4be5-adc2-7c58977986e9","estimatedTime":"7 weeks","createdByUserId":"c547f092-0dcc-444f-9e60-8d132ee1d33a"}'

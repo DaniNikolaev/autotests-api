@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjMyOjA5LjY0Mjk3NyIsInVzZXJfaWQiOiIyZDJhYjgxOS02YjhmLTQ5YzMtOWRkMy02MDI2YjVhYWI1NzcifQ.VUraCGWMN4A6pdan7xqCBBMO14LH-7TCeBCaSQHh98Y' \
+ -H 'content-length: 392' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Assume and right face various recognize reduce.","maxScore":58,"minScore":2,"description":"Natural structure quite take say heavy. Energy range mean once yourself PM yet far.\nQuickly why room score about wide. Account election benefit fine.","previewFileId":"af92c4ff-549f-4a6c-9e35-8bf7c3f5b5c8","estimatedTime":"10 weeks","createdByUserId":"2d2ab819-6b8f-49c3-9dd3-6026b5aab577"}'

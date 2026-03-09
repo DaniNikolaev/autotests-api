@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjMyOjA3Ljg3ODM2NCIsInVzZXJfaWQiOiJlODZjYmU5My1hOTcxLTRlYWItOGJiZC1hNzZlODg3ZjkzZmYifQ.8A-1ML7V_OwOKtdyE6kWFMJUTQhg_KKypP6HuOgesTo' \
+ -H 'content-length: 412' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Thousand bar themselves happy establish.","maxScore":83,"minScore":30,"description":"Two prove argue resource result international fish. Little single world leave. Of drug friend stay then ever.\nArgue hour class try. Size compare situation study most newspaper.","previewFileId":"cba05a1b-d033-4212-b217-3e935c663ef3","estimatedTime":"3 weeks","createdByUserId":"e86cbe93-a971-4eab-8bbd-a76e887f93ff"}'
