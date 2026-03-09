@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjUxOjU5LjcxNTU1NCIsInVzZXJfaWQiOiI5MTI5NDk1Mi1iYWY3LTQ1OGYtOTNjNC1lZGI2OWMxZGJkMjUifQ.M3E6dHMbKzFK-oGLSw3cx5O_2p2CZnw3QSn4SVcuShU' \
+ -H 'content-length: 422' \
+ -H 'content-type: application/json' \
+ -d '{"title":"East investment them involve place religious lot some.","maxScore":98,"minScore":12,"description":"Likely sell message tonight study. Huge prepare set citizen return. Military history attorney.\nMember voice environmental happen shake stock. Area window recognize someone.","previewFileId":"9e1b260f-1f10-4ad9-8900-4c638b5b5afa","estimatedTime":"1 weeks","createdByUserId":"91294952-baf7-458f-93c4-edb69c1dbd25"}'

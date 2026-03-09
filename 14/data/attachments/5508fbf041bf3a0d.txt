@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjUxOjU0LjY1NzE5NiIsInVzZXJfaWQiOiJlYjkzYTdiMC02ZjgxLTRlYTAtYjQxYy1hZjAzMGE5NzIzZjQifQ.YqBfxSqsF0QYNcfNOz0ekJ8NdrenPu5tUGvhZI2geoE' \
+ -H 'content-length: 385' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Fire station technology.","maxScore":50,"minScore":6,"description":"Maybe fund bag also themselves. Body society toward lot teach scene child. Will in other name.\nFear almost personal bed official traditional. Fly major improve board.","previewFileId":"4279ebc3-38bd-40bd-b854-75b0307527e8","estimatedTime":"9 weeks","createdByUserId":"eb93a7b0-6f81-4ea0-b41c-af030a9723f4"}'

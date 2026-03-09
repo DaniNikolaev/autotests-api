@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjUxOjU3LjM4MjM0MCIsInVzZXJfaWQiOiJkNWQ0ZTEyOC1kOTIwLTRlY2MtYThhYi03NDkwN2VkYjcwM2UifQ.MhjlwfHRjXGDuIMzbxTH0_o7z6BZaDoq6PbHR16ulC8' \
+ -H 'content-length: 419' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Seven marriage later since democratic.","maxScore":95,"minScore":27,"description":"Seven behavior until low push. Hour relationship data learn when. Enter employee item central prepare ball.\nRead attention wear tonight. Risk role study generation pattern year address.","previewFileId":"b70c434f-a8e5-4cd5-b879-b4daa3ba3f0c","estimatedTime":"4 weeks","createdByUserId":"d5d4e128-d920-4ecc-a8ab-74907edb703e"}'

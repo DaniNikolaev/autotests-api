@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjUxOjU3LjEwNTMzNiIsInVzZXJfaWQiOiI3OTJjM2RjZC1lYTY2LTQ3OGYtODFlZS04YzczMTgzYWY3MjkifQ.Nf8ROzdKvsoWL7Xee_z1K6nHGBOPStI68VhMgxtELVE' \
+ -H 'content-length: 291' \
+ -H 'content-type: application/json' \
+ -d '{"title":"You usually consider.","courseId":"1c466e7b-da7b-464c-9159-3e5676ef9b39","maxScore":70,"minScore":13,"orderIndex":100,"description":"First address ground positive upon account kitchen. Look performance could within. Eight threat source summer easy they.","estimatedTime":"9 weeks"}'

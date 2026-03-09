@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/2f94e7b0-8e37-4763-8141-734c9313b015' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjUxOjU0LjM4ODMyOSIsInVzZXJfaWQiOiIyZmY5NDBjYi00MDM5LTQ1MmMtOWFiYi0yMWQyM2Q0YTVmZDEifQ.JNzAGRLIjZBk2RtYC6iooTnkG_xEVhPFszOMKc-a5fw' \
+ -H 'content-length: 307' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Statement just suffer economy thank laugh budget thought.","maxScore":71,"minScore":8,"description":"Too spring though who item wrong picture. Great popular after also college.\nLaw fast couple mission very similar describe. Approach beautiful control rich forget turn.","estimatedTime":"1 weeks"}'

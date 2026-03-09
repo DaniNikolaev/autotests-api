@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjUxOjU4LjU4MDc3NiIsInVzZXJfaWQiOiJlZTM4YzhjMy1mOTFjLTQ2MjgtOTViNS0wMDM2YjAzN2ZmMDAifQ.EdSbYQYk0L5ZilOCGyA3SMBAM8SZZAFcKwhB1aDOBy8' \
+ -H 'content-length: 375' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Card word situation half.","maxScore":62,"minScore":15,"description":"Cup method relationship court hundred nation significant. Same receive purpose brother. Shoulder view machine sell including help follow. Back attack into.","previewFileId":"05ca0fb4-b9da-4d76-996a-2873ae10efa1","estimatedTime":"6 weeks","createdByUserId":"ee38c8c3-f91c-4628-95b5-0036b037ff00"}'

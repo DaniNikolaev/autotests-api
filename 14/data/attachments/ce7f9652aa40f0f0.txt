@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjUxOjU3LjEwNTMzNiIsInVzZXJfaWQiOiI3OTJjM2RjZC1lYTY2LTQ3OGYtODFlZS04YzczMTgzYWY3MjkifQ.Nf8ROzdKvsoWL7Xee_z1K6nHGBOPStI68VhMgxtELVE' \
+ -H 'content-length: 419' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Return last reflect suffer also many.","maxScore":57,"minScore":9,"description":"Piece campaign western car trade billion term. Whom quality us civil.\nParent again south him up throughout allow. Discussion let develop ahead herself. Watch fact condition weight where.","previewFileId":"454c6791-78e8-4f5e-ba70-a1de6b69de88","estimatedTime":"10 weeks","createdByUserId":"792c3dcd-ea66-478f-81ee-8c73183af729"}'

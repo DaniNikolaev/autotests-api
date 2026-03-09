@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjUxOjU0Ljk5MzU4NCIsInVzZXJfaWQiOiI3MDQxMTNjZC05NGZmLTQ0ZGUtYTM2YS02MGViNGZlOWI3YjEifQ.c9h394HulEf24zaQgLOgJrkh56VQ95K2xMVtoF8ghYg' \
+ -H 'content-length: 425' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Source upon real shoulder get step land.","maxScore":61,"minScore":2,"description":"Arm most thank by back although. Wall use sister yet.\nYeah energy both method message recognize. Sign enjoy Mrs.\nStrong whose them effect group miss. Final discuss after sound manager both.","previewFileId":"85f08144-e4f8-417b-a76c-3ec0fd2ba4de","estimatedTime":"2 weeks","createdByUserId":"704113cd-94ff-44de-a36a-60eb4fe9b7b1"}'

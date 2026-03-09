@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/courses/2f94e7b0-8e37-4763-8141-734c9313b015
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses/2f94e7b0-8e37-4763-8141-734c9313b015
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:78 Check update course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Statement just suffer economy thank laugh budget thought.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 71
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 8
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Too spring though who item wrong picture. Great popular after also college.
+Law fast couple mission very similar describe. Approach beautiful control rich forget turn.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

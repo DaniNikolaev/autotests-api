@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjUxOjU0LjM4ODMyOSIsInVzZXJfaWQiOiIyZmY5NDBjYi00MDM5LTQ1MmMtOWFiYi0yMWQyM2Q0YTVmZDEifQ.JNzAGRLIjZBk2RtYC6iooTnkG_xEVhPFszOMKc-a5fw' \
+ -H 'content-length: 396' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Fill each choose prevent nation officer everyone message.","maxScore":73,"minScore":24,"description":"Care apply deal center. Lose cost set full.\nThreat me avoid item involve. Yet cup let staff mouth really learn. Degree condition specific goal.","previewFileId":"7b021a29-8038-4614-9e8e-2e8d8d2f14a5","estimatedTime":"3 weeks","createdByUserId":"2ff940cb-4039-452c-9abb-21d23d4a5fd1"}'

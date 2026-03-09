@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:96 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Source upon real shoulder get step land.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 61
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 2
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Arm most thank by back although. Wall use sister yet.
+Yeah energy both method message recognize. Sign enjoy Mrs.
+Strong whose them effect group miss. Final discuss after sound manager both.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 2 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'created_by_user_id' equals to 704113cd-94ff-44de-a36a-60eb4fe9b7b1
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'preview_file_id' equals to 85f08144-e4f8-417b-a76c-3ec0fd2ba4de
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjUxOjU1Ljk1MjQ0NyIsInVzZXJfaWQiOiJlYjBhMjMwOS1lMDY1LTQyNzYtOWJlNC0zMjBkNGExOTg5MGEifQ.itQ-X76Ubn2TrOvHUc-NRsmgaGQ3E6GeAGjHqegR7LE' \
+ -H 'content-length: 400' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Require mother size officer.","maxScore":57,"minScore":3,"description":"With everybody let talk. Simply parent administration leader can. A record knowledge such.\nRight partner myself brother painting trade. Leader however if wife fight include who.","previewFileId":"13258e69-a934-463a-982e-7a6f5cc00384","estimatedTime":"3 weeks","createdByUserId":"eb0a2309-e065-4276-9be4-320d4a19890a"}'

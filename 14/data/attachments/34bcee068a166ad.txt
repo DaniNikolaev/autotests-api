@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjUyOjAwLjI4MDg4NCIsInVzZXJfaWQiOiI2OGRiYzk5ZC0zOThjLTQ3N2EtOGRhNS1mMDNjM2Y5NmVkOWYifQ.-SVC7GbsVAh7x9vfQlXicAT1eGrI74E2fXqpwgrs1HA' \
+ -H 'content-length: 330' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Produce born by laugh debate.","maxScore":58,"minScore":6,"description":"Budget push low. Car level sea ready sound.\nGas wife white company live article wall. Two prove main deep.","previewFileId":"9469c766-c793-4156-835b-70f58b068da5","estimatedTime":"4 weeks","createdByUserId":"68dbc99d-398c-477a-8da5-f03c3f96ed9f"}'
