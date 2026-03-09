@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE3OjA3OjA4LjU5ODgzNiIsInVzZXJfaWQiOiIzODFiYmIzMy04M2EyLTQwZTgtYWU2My1hZTMyM2NiNmQ4MGMifQ.cr0MgxMP-p_tiZh7TH63COyHnSN87DoZJ49dZVa7oMY' \
+ -H 'content-length: 399' \
+ -H 'content-type: application/json' \
+ -d '{"title":"This one main though cold pressure.","maxScore":69,"minScore":4,"description":"Effect any character paper of itself.\nBack after safe. Generation trial party together. Ability month wall down full poor discussion our. Bad how water tax senior board.","previewFileId":"cfb12ba8-63ac-42f7-b3c1-7ed4cf83023f","estimatedTime":"6 weeks","createdByUserId":"381bbb33-83a2-40e8-ae63-ae323cb6d80c"}'

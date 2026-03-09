@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE3OjA3OjEwLjM0MzY3MSIsInVzZXJfaWQiOiI1MjNlMDBhMS1kMzJlLTQ4NDAtODEyMC1iNzExYTQ0YzcwNjIifQ.GuXvqm75MX2Tyt3ZvXoh2HQqzFehQ36Ch19U4OFgA_o' \
+ -H 'content-length: 322' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Pm commercial music face.","maxScore":98,"minScore":28,"description":"Short why community main participant clearly. Ability sound option too series reality during continue.","previewFileId":"edb63842-779f-4040-9177-5e83f475da3c","estimatedTime":"6 weeks","createdByUserId":"523e00a1-d32e-4840-8120-b711a44c7062"}'

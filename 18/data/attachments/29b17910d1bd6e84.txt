@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE3OjA3OjA3LjE0MzkzOCIsInVzZXJfaWQiOiI1MjljODg3MS1hMzE2LTQxNWYtYTFmNy1kNjRhNjY1YjliODcifQ.C7THtV3Kd919TMiX8Na2BmLjROqd5sepekCNK9otMaM' \
+ -H 'content-length: 395' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Shoulder news best inside for forward south hair.","maxScore":97,"minScore":22,"description":"Five institution treat. Grow quite start here wide.\nFear energy call education everything pressure rich think. Learn television wear go blue training.","previewFileId":"b962808c-bfe5-415f-ab6e-1b0a08ffa0dc","estimatedTime":"3 weeks","createdByUserId":"529c8871-a316-415f-a1f7-d64a665b9b87"}'

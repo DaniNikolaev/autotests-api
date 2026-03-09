@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE3OjA3OjA3Ljk4OTE4OSIsInVzZXJfaWQiOiJkNjc2ZDlhNi0xYmNkLTRiOTYtOThmOS02MTI0NmMyMmZiNjgifQ.KUroHrXrCCVCwxVfKCuB5Eb-vzY1kLQ0Hb0qcYfxgco' \
+ -H 'content-length: 345' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Book here tonight such.","maxScore":90,"minScore":16,"description":"Maintain listen commercial project. Hear help black particularly daughter. Less treatment billion upon. Reflect note idea name.","previewFileId":"f2a6f4b5-c4f7-4cfb-bc1f-6f4109330cad","estimatedTime":"5 weeks","createdByUserId":"d676d9a6-1bcd-4b96-98f9-61246c22fb68"}'

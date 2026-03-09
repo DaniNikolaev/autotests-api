@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE3OjA3OjA5Ljc4NzI1MSIsInVzZXJfaWQiOiIzOGQ5OTRmMi0xNzg0LTQxYTYtYmU0My0wOTc5ZTM5OTBlMTQifQ.r38pByAQSJdUNsUxfGsix6jFHfbmFGjAtqzlFi5ixIw' \
+ -H 'content-length: 363' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Day since and very.","maxScore":80,"minScore":15,"description":"Charge little hot watch task. Personal against box decade expert.\nAdministration author around business writer since. Daughter there south now ball.","previewFileId":"8d30c410-746c-4051-96d7-8455c8f82791","estimatedTime":"6 weeks","createdByUserId":"38d994f2-1784-41a6-be43-0979e3990e14"}'

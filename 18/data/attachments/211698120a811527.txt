@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE3OjA3OjEyLjE0Mjk2NyIsInVzZXJfaWQiOiJlNTdkMTkwYy02ZWNkLTQ0ZjEtYTJkNS0xMzVmNDdiNzEwYTkifQ.DEYnfwjRNzNX2bTMq4tBvjoSmKrqZGs38jGDXDWmrfc' \
+ -H 'content-length: 340' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Player floor yard imagine human.","maxScore":62,"minScore":16,"description":"After police task. Young water hospital explain explain chance score. People body shoulder each message security.","previewFileId":"2fb2a8ea-9e18-413e-91fd-df187cb20a32","estimatedTime":"1 weeks","createdByUserId":"e57d190c-6ecd-44f1-a2d5-135f47b710a9"}'

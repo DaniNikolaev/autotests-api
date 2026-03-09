@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE3OjA3OjEwLjA2NDUyNSIsInVzZXJfaWQiOiI2MDZiMjY0My01ZjE5LTQ0MTQtOGM1Ny03MzI5NDM5YmYzNjEifQ.AzrzoIBCFIkoqM_ST-tKvMmhUsGKW7J4TLs6c-2oKqs' \
+ -H 'content-length: 355' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Collection special have.","maxScore":99,"minScore":8,"description":"Can point some everyone. Official remember raise a its. Occur few until that. Discussion raise water democratic these southern adult nor.","previewFileId":"459028f4-6cd3-4c2c-8599-b84382bfe9fb","estimatedTime":"6 weeks","createdByUserId":"606b2643-5f19-4414-8c57-7329439bf361"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/05053e0e-85c7-438b-8b91-7a83a990b112' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE3OjA3OjA3LjE0MzkzOCIsInVzZXJfaWQiOiI1MjljODg3MS1hMzE2LTQxNWYtYTFmNy1kNjRhNjY1YjliODcifQ.C7THtV3Kd919TMiX8Na2BmLjROqd5sepekCNK9otMaM' \
+ -H 'content-length: 242' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Recent however model choose meet hope often and.","maxScore":96,"minScore":15,"description":"Action concern itself wear. Begin than thus thank article bit community. Study treat us smile per event amount.","estimatedTime":"2 weeks"}'

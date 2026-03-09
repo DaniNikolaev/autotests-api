@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE3OjA3OjExLjg2NTg2NSIsInVzZXJfaWQiOiJlYzIyNThiYS1mMzEyLTQ5ODEtYjMyYS02OTZiY2YzNDdiYmEifQ.YQplUdlToZFmwhQ8jePaNvAgRX9CBGuZzlNtMPs_IgU' \
+ -H 'content-length: 340' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Field heavy group whom shake every participant country.","maxScore":56,"minScore":22,"description":"Spring range century strong. Out rise year ago together better look. Opportunity out blue.","previewFileId":"c53aefd7-9693-48b1-b717-de705811d064","estimatedTime":"2 weeks","createdByUserId":"ec2258ba-f312-4981-b32a-696bcf347bba"}'
