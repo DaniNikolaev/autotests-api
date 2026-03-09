@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjAzOjIyLjkzNjg3MSIsInVzZXJfaWQiOiJkMmExYjM2ZS1lOWM2LTQ2NjAtODNhNi1iY2U4ZDE2YzRlNWYifQ.LILUEygI5cnXZIZQI4TcuIjbnZTFiXNGT1Ttf_4-rr4' \
+ -H 'content-length: 300' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Service nature should one agent.","maxScore":72,"minScore":2,"description":"Room black both century surface direction capital. Learn test even agency.","previewFileId":"483680a5-c040-4216-bba6-0c15d1c249b4","estimatedTime":"2 weeks","createdByUserId":"d2a1b36e-e9c6-4660-83a6-bce8d16c4e5f"}'

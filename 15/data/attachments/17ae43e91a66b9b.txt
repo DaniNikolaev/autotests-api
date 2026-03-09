@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjAzOjIzLjgxODQ5MSIsInVzZXJfaWQiOiI4ZmY3OWEzOC1jYjM0LTQ5OTYtOGQxYS03NjE4MjYyNDRhODEifQ.pxlwn-fSIrcQuOGCYdM0QeniFn8RlE6dHdDCwkRTfB8' \
+ -H 'content-length: 400' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Card treat consumer too rate.","maxScore":54,"minScore":19,"description":"But lawyer increase court.\nYoung seek lot place where PM on military.\nCommercial level hospital program weight start already. Fact fund young information concern some artist.","previewFileId":"df9d6d8a-ecfe-422b-98ce-2caab8b8a6bb","estimatedTime":"5 weeks","createdByUserId":"8ff79a38-cb34-4996-8d1a-761826244a81"}'

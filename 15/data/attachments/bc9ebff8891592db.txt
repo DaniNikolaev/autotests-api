@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjAzOjIzLjIxNTY1MiIsInVzZXJfaWQiOiI0NzAwMDYwYy02MzU5LTQ1MzQtYTA5NC00MTM1NWNiZWVjZGYifQ.rYkXrqv6DTTo1RyhWeZzD3bxJLqd5IJuv9xOw7NJ5g4' \
+ -H 'content-length: 343' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Free down media money.","maxScore":73,"minScore":2,"description":"Make set account down TV computer seat. Join including bar wish new allow. Environmental responsibility score big without base.","previewFileId":"9f40d749-bcae-4ca9-8e1b-4b3e43303f7f","estimatedTime":"3 weeks","createdByUserId":"4700060c-6359-4534-a094-41355cbeecdf"}'

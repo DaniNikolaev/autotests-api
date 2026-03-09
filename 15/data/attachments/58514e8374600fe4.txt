@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjAzOjI0LjQyNjcxNiIsInVzZXJfaWQiOiIxNmEyMTU1Ni1hOWQzLTRiMzMtODY4Yi1mNDA1YmYwMzg4ODAifQ.VAysHyRklxyHJFs6aChbklCo-M-pa_0uDXqmCD0oe3E' \
+ -H 'content-length: 405' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Bank order rest federal.","maxScore":97,"minScore":10,"description":"Entire exist remember deep position. Third receive rule box.\nSuffer issue whose source may drop. Century mind price deal particularly but to. Ahead other particular challenge authority.","previewFileId":"590bd348-fa21-4995-ac6c-f3b54b8ec741","estimatedTime":"2 weeks","createdByUserId":"16a21556-a9d3-4b33-868b-f405bf038880"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/acc2493b-f019-4779-b78a-30ad0587692a' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjAzOjE5Ljk5NDY3MCIsInVzZXJfaWQiOiJlZjMyMjk4ZC1iYThiLTRiMjctOGZiMy1lNDJiMjgzMzdjNTgifQ.VmOHx5bAR9JF7f43pQ-l_3WUklH2UonQbSX5JUXkD48' \
+ -H 'content-length: 300' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Even learn today note federal list.","maxScore":86,"minScore":12,"description":"In not little attention. Few middle reduce too white fact last. Story discuss fear north culture bank.\nFinal produce end attack big fish. Capital other around. Image partner street.","estimatedTime":"1 weeks"}'

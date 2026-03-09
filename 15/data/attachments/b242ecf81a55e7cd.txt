@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjAzOjE5LjQ0NTAxOSIsInVzZXJfaWQiOiIwNzA5M2QyNC0wMjBhLTRiNjgtODAwZC1kMTUyMDUzYmVjZjYifQ.rEDGjl1cVqtr9kbWEMUjI7D95bv1M0PiDV1sU9Q509U' \
+ -H 'content-length: 361' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Certain main sign ever.","maxScore":65,"minScore":11,"description":"Company sing anyone father meeting send which. Dinner cause response will though serve. Point agreement leader air establish gas soldier meet.","previewFileId":"90fd1ffc-2536-4b32-9543-d42efc58356a","estimatedTime":"10 weeks","createdByUserId":"07093d24-020a-4b68-800d-d152053becf6"}'

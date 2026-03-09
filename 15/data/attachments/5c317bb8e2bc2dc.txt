@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjAzOjIxLjQ2Mjk3NiIsInVzZXJfaWQiOiJiY2Y1MDE5My1kZmM2LTQzMzktODBlYy0yZDhjYjY0OGU1NmIifQ.jYAMhZkPnhSaWtlEeyttav6NBf3TYAvzdTRvdlkD1Vg' \
+ -H 'content-length: 414' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Per mission quality push quite north.","maxScore":56,"minScore":1,"description":"View scene could page various.\nThree author stage collection some. Week save suffer than hospital.\nThree director example officer both wear difficult. Need represent amount reflect.","previewFileId":"38bdc494-3fa1-4bca-8250-30769d9b7825","estimatedTime":"6 weeks","createdByUserId":"bcf50193-dfc6-4339-80ec-2d8cb648e56b"}'

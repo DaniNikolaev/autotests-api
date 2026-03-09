@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjAzOjE5LjcxNDM4NyIsInVzZXJfaWQiOiIwNWVjOTA5ZS01YWYyLTRiNDctYjk0Ni1hOWUyZDI1MWUxM2QifQ.vbMJYOvmYug3e0yXs23wVSU90W8UdF5Y94acNLvis_c' \
+ -H 'content-length: 294' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Student home go body impact.","maxScore":82,"minScore":28,"description":"Concern because worry sure. Call one society effect hundred test model.","previewFileId":"37173a72-b34a-4fd9-901f-90ef7394422b","estimatedTime":"7 weeks","createdByUserId":"05ec909e-5af2-4b47-b946-a9e2d251e13d"}'

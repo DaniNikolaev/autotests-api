@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjAzOjIyLjA5MzY5NiIsInVzZXJfaWQiOiJiNjMzMTMwNC05N2EyLTQzMGItOWQyYi1kMTc2M2I2MzM1YzEifQ.-8UKHIC7WbJ3wg_pyUBgOJAuGo763iDnCXw9oSi5QBs' \
+ -H 'content-length: 371' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Age son generation soon by data.","courseId":"4c9dce0b-aa9b-49c8-b688-40911fe62244","maxScore":82,"minScore":19,"orderIndex":6,"description":"Wonder around require for improve within.\nHold tax realize more carry simple. Hand local find current country. Full program any bad.\nCarry thousand the recognize seat sing participant rest.","estimatedTime":"8 weeks"}'

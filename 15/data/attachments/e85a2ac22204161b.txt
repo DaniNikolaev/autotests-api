@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjAzOjIyLjA5MzY5NiIsInVzZXJfaWQiOiJiNjMzMTMwNC05N2EyLTQzMGItOWQyYi1kMTc2M2I2MzM1YzEifQ.-8UKHIC7WbJ3wg_pyUBgOJAuGo763iDnCXw9oSi5QBs' \
+ -H 'content-length: 406' \
+ -H 'content-type: application/json' \
+ -d '{"title":"As enter blue pass.","maxScore":94,"minScore":25,"description":"Wait my cultural market indeed. Son move couple director practice. Keep mention country statement choice debate.\nSay toward identify source throw actually. Heart financial attention catch in.","previewFileId":"5e99c3ef-04ca-49b7-af35-75ceb8788025","estimatedTime":"5 weeks","createdByUserId":"b6331304-97a2-430b-9d2b-d1763b6335c1"}'

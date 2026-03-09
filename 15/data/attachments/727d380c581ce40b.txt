@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjAzOjIxLjE3Nzc3MyIsInVzZXJfaWQiOiIwY2NkY2VkNS0yYmNmLTQwODctOTFkMC0xMTEyM2Q5ZmZmNjgifQ.ZnWlNCq3beUGs0I7CogSIhoFyWJaVSCpMUn_gDrSc9I' \
+ -H 'content-length: 424' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Song hold different question.","maxScore":52,"minScore":26,"description":"Discuss design gas year wear huge. More energy part would key.\nVery measure story media safe. Too important human.\nThe quite food family. Soon goal chair interesting. Option beautiful job common in.","previewFileId":"46222854-f8a0-4ef2-a376-1460ac7a74dc","estimatedTime":"9 weeks","createdByUserId":"0ccdced5-2bcf-4087-91d0-11123d9fff68"}'
