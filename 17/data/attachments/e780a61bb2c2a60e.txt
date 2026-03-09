@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjM2OjEzLjAwNDkwMCIsInVzZXJfaWQiOiI3NTJkYWQ4NS1jYmQxLTQyZmMtYmE0MC1jNTFiNTE4YjRmNWEifQ.Y2LTW-Kweh-4I6ZzNefWbuFeBYj0ZjIh9-1MEGQdv4s' \
+ -H 'content-length: 330' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Approach national age be laugh star move.","maxScore":90,"minScore":20,"description":"Nothing growth national meeting unit left board reflect. Big left so away list anything three.","previewFileId":"2691b39f-0722-47b1-afdd-d6bcc0216bee","estimatedTime":"4 weeks","createdByUserId":"752dad85-cbd1-42fc-ba40-c51b518b4f5a"}'

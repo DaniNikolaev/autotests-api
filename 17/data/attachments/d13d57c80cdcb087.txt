@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjM2OjE1LjY3OTMxNSIsInVzZXJfaWQiOiI1OGNmYjIzZi04MjIyLTQ1Y2QtYWI5Ny0xNWNiZTVhZGVmNDQifQ.daJM_1BVpb77lKda2uYMaEZ7i4J5AYLh_Qk1EicnxBo' \
+ -H 'content-length: 369' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Agree image debate old view meeting.","maxScore":53,"minScore":8,"description":"Service sell election list laugh history really. Child lose ability help interview town discuss. Degree day large bit listen statement box.","previewFileId":"57305732-cc21-4154-89bd-7b6620bf1e9c","estimatedTime":"7 weeks","createdByUserId":"58cfb23f-8222-45cd-ab97-15cbe5adef44"}'

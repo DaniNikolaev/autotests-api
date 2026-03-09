@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjM2OjE3LjEwNTMxMyIsInVzZXJfaWQiOiIzODFlMmZiMy00NmEzLTQwNGMtYWIwNi0xMWI3NWNlNzYxYzgifQ.P4tuTSWMfYgBkZ7ozTtn2OPyt7pTcW2H3Jwt_dShEWc' \
+ -H 'content-length: 405' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Around consider thank for away.","maxScore":86,"minScore":20,"description":"Former then lay ball society. Summer consider article different single south loss. Hospital drive run father deep city.\nCase glass someone partner. Individual heavy because sort.","previewFileId":"5f4e0728-0846-4166-bfe1-5f96b9a4babd","estimatedTime":"7 weeks","createdByUserId":"381e2fb3-46a3-404c-ab06-11b75ce761c8"}'

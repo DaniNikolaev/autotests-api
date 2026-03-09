@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjM2OjEzLjU1MjY1MiIsInVzZXJfaWQiOiI3OWYwOGU1Mi1mMjIzLTQ0YTQtODcwZS00ODMwYWE5MzNkNTYifQ.PA8mofiTRFHfWdA_Om8frr0sKha1SFVp-YZspDWIP4c' \
+ -H 'content-length: 284' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Impact too hotel.","maxScore":66,"minScore":15,"description":"Music save style behind share plant ground artist. Operation summer sea.","previewFileId":"c981a8b2-3a00-4537-9898-478ca45a5a58","estimatedTime":"9 weeks","createdByUserId":"79f08e52-f223-44a4-870e-4830aa933d56"}'

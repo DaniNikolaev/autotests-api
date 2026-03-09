@@ -1,0 +1,32 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/courses/49cab912-f5ce-437b-9ac7-f54730f2eb0f
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses/49cab912-f5ce-437b-9ac7-f54730f2eb0f
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:47 Check get course response
+INFO     COURSES_ASSERTIONS:courses.py:25 Check course
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to 49cab912-f5ce-437b-9ac7-f54730f2eb0f
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Way north wall put never.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 65
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 13
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Occur specific answer senior.
+Think drug international thus put level. Over pull personal. Environment mention keep space environment possible.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 6 weeks
+INFO     USERS_ASSERTIONS:users.py:54 Check user
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to 7a3acbfb-8814-4a8b-9295-468b5ba3a89e
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'email' equals to joseph91@example.org
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'first_name' equals to Sharon
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'middle_name' equals to Cassandra
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'last_name' equals to Hill
+INFO     FILES_ASSERTIONS:files.py:40 Check file
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to c9ac4322-d685-480b-bb2e-338361c339f0
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'filename' equals to 4d86290a-27e0-4c60-977a-073adb00a7f2.jpg
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'directory' equals to tests
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'url' equals to http://localhost:8000/static/tests/4d86290a-27e0-4c60-977a-073adb00a7f2.jpg
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

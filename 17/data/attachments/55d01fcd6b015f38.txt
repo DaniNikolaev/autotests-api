@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjM2OjE0Ljc5MDEyNCIsInVzZXJfaWQiOiI3YTNhY2JmYi04ODE0LTRhOGItOTI5NS00NjhiNWJhM2E4OWUifQ.LGdRg3hgvay14mw3XYrWMq0hiJNMGmGgCRTiXXhSnW4' \
+ -H 'content-length: 364' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Way north wall put never.","maxScore":65,"minScore":13,"description":"Occur specific answer senior.\nThink drug international thus put level. Over pull personal. Environment mention keep space environment possible.","previewFileId":"c9ac4322-d685-480b-bb2e-338361c339f0","estimatedTime":"6 weeks","createdByUserId":"7a3acbfb-8814-4a8b-9295-468b5ba3a89e"}'

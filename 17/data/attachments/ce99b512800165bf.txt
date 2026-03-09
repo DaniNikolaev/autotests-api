@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjM2OjE4LjI5NDg2NSIsInVzZXJfaWQiOiJkNGEzYjcxMy1jODkwLTQ2NTYtYTI0My04MGU4ZDQ4NWRhZGEifQ.hZJvgK_UD_X7x9wOXAhfTcItm5AJtrWB8laQG-9Il6k' \
+ -H 'content-length: 320' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Walk media religious security begin.","maxScore":55,"minScore":13,"description":"General race scene radio American successful stock. Song responsibility skin report name.","previewFileId":"83aedd91-0727-486c-a084-d777dbee0e98","estimatedTime":"8 weeks","createdByUserId":"d4a3b713-c890-4656-a243-80e8d485dada"}'

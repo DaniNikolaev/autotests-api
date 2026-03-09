@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/dfb2dd97-7eed-44fb-b5fd-8cd91b395c03' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjM2OjEzLjU1MjY1MiIsInVzZXJfaWQiOiI3OWYwOGU1Mi1mMjIzLTQ0YTQtODcwZS00ODMwYWE5MzNkNTYifQ.PA8mofiTRFHfWdA_Om8frr0sKha1SFVp-YZspDWIP4c' \
+ -H 'content-length: 278' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Religious maybe report both before.","maxScore":75,"minScore":10,"description":"With watch above whether recently. Little speech final himself federal.\nHour eight special set. Investment father customer. Seem these order teach wrong might.","estimatedTime":"9 weeks"}'

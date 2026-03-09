@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjM2OjE2LjgzMDQzNiIsInVzZXJfaWQiOiJlMDhiMDg1OS01ZTUwLTQ1OGEtYjVjOS05ODU2NzMzZThlMjgifQ.3jcr7AMh7JJk2EAF5AJRC7aEgnv-merxrkjWP9l66jo' \
+ -H 'content-length: 389' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Item call ten company American feeling particularly.","maxScore":53,"minScore":14,"description":"Soldier school where type tonight loss natural role. Health try result market certain start. Trial mouth dog season people responsibility get.","previewFileId":"6d6871a8-6138-4203-9d1e-defce29d7342","estimatedTime":"9 weeks","createdByUserId":"e08b0859-5e50-458a-b5c9-9856733e8e28"}'

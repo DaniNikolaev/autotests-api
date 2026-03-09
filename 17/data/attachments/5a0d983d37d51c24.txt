@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjM2OjE0LjE3OTI4OSIsInVzZXJfaWQiOiJlMDYzM2JiNy0wNDAwLTQwMjUtYjA0MC0xOTM1Yzc2OTIwOGQifQ.doCi9_3NQ4dbFm1MMZTanou4Lemc9c667kdf33Li9uY' \
+ -H 'content-length: 395' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Clear health one important bring cold.","maxScore":63,"minScore":18,"description":"Sister cultural much assume add item put. Detail strong west cover interview.\nCondition girl Democrat opportunity network cold. Personal face gun then including.","previewFileId":"a11593ae-ca38-491f-b549-b9026a068ca5","estimatedTime":"3 weeks","createdByUserId":"e0633bb7-0400-4025-b040-1935c769208d"}'

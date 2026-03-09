@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE2OjM2OjEyLjczMzg2NSIsInVzZXJfaWQiOiJkZTgwMjVmMC03NDU4LTQxZjAtOWQ0Yi0yN2VjMmZmMDg4ZWQifQ.Nd1DBJGVCv582ka5X8mnkvQOcPRyv0OL9b-al6n-tyM' \
+ -H 'content-length: 371' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Finish him case point sport.","maxScore":96,"minScore":14,"description":"Attorney she some continue which. Into choose great store risk again course. Language across adult contain result.\nGuess low future authority food.","previewFileId":"f9fbd4ac-0ea3-44fc-99a0-f043a7a10910","estimatedTime":"8 weeks","createdByUserId":"de8025f0-7458-41f0-9d4b-27ec2ff088ed"}'
