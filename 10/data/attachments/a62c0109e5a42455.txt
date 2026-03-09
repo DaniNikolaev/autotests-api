@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjQyOjAwLjg3MzA0MyIsInVzZXJfaWQiOiIzNWE3YTQwYi1lY2Q0LTQ5YzItOGY5Ni0xMmRlZjg0MGE3NGYifQ.VR8oM5mlqn9_vO7KkQ45e-g7U1ZTPtbenvgf4UGnRZo' \
+ -H 'content-length: 337' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Answer also for just.","maxScore":76,"minScore":3,"description":"Material use leg government health fear account. Develop everything bring. Wide never media low. Staff care nor bar table.","previewFileId":"8bdde401-4bf0-4a04-88e1-54e2e571cca6","estimatedTime":"5 weeks","createdByUserId":"35a7a40b-ecd4-49c2-8f96-12def840a74f"}'

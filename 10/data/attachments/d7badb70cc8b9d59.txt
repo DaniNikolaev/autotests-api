@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/ca52b359-e525-41a5-83f4-920c247dcf0c' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjQyOjAxLjE1MzYwMCIsInVzZXJfaWQiOiJiNDY1MThmNy0zYTgyLTQ0YzktYmI0MC1kZmRmMjhmM2VjNTEifQ.AOnCmv5PI0MIqXirNUiFl3kYeFT8P9_xUbuuR2F8nho' \
+ -H 'content-length: 296' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Some in station understand bank down image.","maxScore":90,"minScore":1,"description":"Wind allow establish today true despite. Right may several approach either establish.\nWeek serious work rest leader appear moment soon. Care option send billion magazine.","estimatedTime":"4 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjQyOjA1Ljg1MjQ4MCIsInVzZXJfaWQiOiJhY2EyYWJmYS0yY2QwLTQxNTAtYmQ4NC0wYzliYmI2NDc3OWIifQ.6BceE1_BMUkSTS0OgrKsAb0Ypu-gYmmRH2qCGfBdFkk' \
+ -H 'content-length: 337' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Push model resource trip its.","maxScore":90,"minScore":5,"description":"Small state firm. Power pull board occur site especially sea local. International real understand its poor couple.","previewFileId":"d8a5117c-470f-475f-901c-e20601f51273","estimatedTime":"6 weeks","createdByUserId":"aca2abfa-2cd0-4150-bd84-0c9bbb64779b"}'

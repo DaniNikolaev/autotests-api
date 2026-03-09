@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjQyOjA0LjcwMTk0NiIsInVzZXJfaWQiOiIxZjk2YzFlOS02NDc1LTQ5YWItYmE0OC01ZDJmM2Y2ODVkZDkifQ.jmYOJqNuz2uhNzLzXK8RLwOB5xEiCnL5LB6-Phf61zc' \
+ -H 'content-length: 296' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Than investment receive pick.","courseId":"2a024a7d-87da-4acb-b912-dd103edc1cd1","maxScore":57,"minScore":6,"orderIndex":91,"description":"Should every why analysis firm live. Between skill me example brother after. Prepare full economic really beyond civil.","estimatedTime":"5 weeks"}'

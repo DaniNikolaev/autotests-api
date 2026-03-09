@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjQyOjA0Ljk3ODgwMCIsInVzZXJfaWQiOiIwZDZkNmE4Ny0yMDA3LTRkYWYtOTI0NS00MmEyNjJmNjMzNWUifQ.TQtlL24OMzj4yuKw4A3mOEi4Q0cuvBZgkFCdDkjAuTg' \
+ -H 'content-length: 333' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Story step bar democratic the director huge despite.","maxScore":76,"minScore":13,"description":"Such base film south fish place. Something major find possible commercial then inside.","previewFileId":"09ec2411-8fbd-4401-bf39-0d4e93260a86","estimatedTime":"7 weeks","createdByUserId":"0d6d6a87-2007-4daf-9245-42a262f6335e"}'

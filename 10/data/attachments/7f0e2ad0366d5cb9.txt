@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjQyOjA0LjcwMTk0NiIsInVzZXJfaWQiOiIxZjk2YzFlOS02NDc1LTQ5YWItYmE0OC01ZDJmM2Y2ODVkZDkifQ.jmYOJqNuz2uhNzLzXK8RLwOB5xEiCnL5LB6-Phf61zc' \
+ -H 'content-length: 387' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Season the need figure court.","maxScore":75,"minScore":14,"description":"Fire then hour though maintain. City head foreign between within authority. Democrat firm name will sell even create. With peace network pressure source good list.","previewFileId":"3dc2a41f-135a-4706-90b9-87019344a87e","estimatedTime":"3 weeks","createdByUserId":"1f96c1e9-6475-49ab-ba48-5d2f3f685dd9"}'

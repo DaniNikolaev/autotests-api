@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjQyOjAzLjUzNDg5MCIsInVzZXJfaWQiOiI0ODdiY2Y2Yy0xZTc5LTRkMzItODNiMy02NTg0MjE3ZjUyMjkifQ.bw1M3TvsG68Udu1jzO6CaPvxE5kg2YbONne9AVrQfCc' \
+ -H 'content-length: 359' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Personal available partner interview buy another.","maxScore":58,"minScore":14,"description":"Measure want fund many. Sure television sit use.\nFew any economic according baby that. Increase great game spring.","previewFileId":"506c155f-f677-44b9-b354-01a692940fb5","estimatedTime":"7 weeks","createdByUserId":"487bcf6c-1e79-4d32-83b3-6584217f5229"}'
