@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/3936e311-a8f0-464c-ae8f-2abe3a526e91' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjQ2OjI0LjAzNTMzMiIsInVzZXJfaWQiOiI4YjRjNGVkOS04Yjk2LTQ1MDQtYjc2Ni03NzI2NTUzNzVlZTcifQ.r-YrHDEJzJYUiRPp6C81d14pIr94_yYA0BuoR9gINyw' \
+ -H 'content-length: 239' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Key buy from.","maxScore":84,"minScore":1,"description":"Reveal blue who rest pressure rate. Water American threat such near because hold song. Some kitchen drug policy hard enter.\nLoss partner court.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjQ2OjI3Ljg0MjgzMyIsInVzZXJfaWQiOiJlNzdmNzcxNC1jYjMzLTQ2MGUtYTEyYi1mZTJhY2ZiMTg0NjkifQ.e55UTfVsJPMOWMxUpS4SnTLood2nv0ON_KGw3m-4PVY' \
+ -H 'content-length: 352' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Total form right find ask source.","maxScore":55,"minScore":27,"description":"Increase ground authority fall quality any. Yourself gas mind even fire. Reduce message own toward administration car share.","previewFileId":"97ceac01-943d-422d-bc98-67e98366d40e","estimatedTime":"7 weeks","createdByUserId":"e77f7714-cb33-460e-a12b-fe2acfb18469"}'

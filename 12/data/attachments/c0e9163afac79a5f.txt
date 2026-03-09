@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/exercises/429bafd4-75f9-4a81-98e3-24b1c5c56f44' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjQ2OjI3Ljg0MjgzMyIsInVzZXJfaWQiOiJlNzdmNzcxNC1jYjMzLTQ2MGUtYTEyYi1mZTJhY2ZiMTg0NjkifQ.e55UTfVsJPMOWMxUpS4SnTLood2nv0ON_KGw3m-4PVY' \
+ -H 'content-length: 315' \
+ -H 'content-type: application/json' \
+ -d '{"title":"He there group control.","maxScore":56,"minScore":1,"orderIndex":18,"description":"Poor arm control history central population full. Many treat guy room staff include knowledge cold.\nWar think difficult create program measure rise.\nResult forget each through. I miss behind.","estimatedTime":"10 weeks"}'

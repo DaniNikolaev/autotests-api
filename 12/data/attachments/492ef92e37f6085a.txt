@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjQ2OjI5LjU5NjU1NiIsInVzZXJfaWQiOiJkMjgxNzQxZi1jZDFiLTQ4NjEtYWVhMC1mNzI1MmFjOGU2OWEifQ.wQLAkprqk8rDO-D7LsOpc-cvN0NTU0oERwdmNjaCQcY' \
+ -H 'content-length: 408' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Hour purpose form including author stop budget.","maxScore":94,"minScore":1,"description":"Number successful left style. Democratic case work indicate relate.\nBlack worry last attorney. Wrong federal fight southern into into. Financial explain send outside.","previewFileId":"ecf2e1d5-83e4-452f-8fbd-3b9f4f0401bb","estimatedTime":"5 weeks","createdByUserId":"d281741f-cd1b-4861-aea0-f7252ac8e69a"}'

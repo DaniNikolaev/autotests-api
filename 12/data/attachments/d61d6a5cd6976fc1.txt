@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjQ2OjI5LjU5NjU1NiIsInVzZXJfaWQiOiJkMjgxNzQxZi1jZDFiLTQ4NjEtYWVhMC1mNzI1MmFjOGU2OWEifQ.wQLAkprqk8rDO-D7LsOpc-cvN0NTU0oERwdmNjaCQcY' \
+ -H 'content-length: 364' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Nothing possible hundred travel.","courseId":"1a289aa8-848a-4cad-af79-001ce93e763d","maxScore":82,"minScore":1,"orderIndex":77,"description":"Police expert feeling father address. Natural program trial face generation away.\nEye wrong wide prevent. Hold various shake hotel stay interest simply. Quite year do anyone any turn.","estimatedTime":"5 weeks"}'

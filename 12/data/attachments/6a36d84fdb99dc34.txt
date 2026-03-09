@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjQ2OjI2Ljk1OTY3MSIsInVzZXJfaWQiOiIzMmY1NDQzYy1mMTQ4LTQxYWEtYmJlMy05MjdiMDRlMmE2MDcifQ.ew1oAS_-QZlTiZ3o88m4czhOmaKSHX4obutpCEE7QZo' \
+ -H 'content-length: 390' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Position doctor condition.","maxScore":64,"minScore":9,"description":"Magazine this what special. Challenge someone song. Ahead night rise almost they.\nCommunity imagine cover any effort him. Community close reach article but process over.","previewFileId":"023080e4-ad9e-4a24-9a0b-36b053b6b59f","estimatedTime":"8 weeks","createdByUserId":"32f5443c-f148-41aa-bbe3-927b04e2a607"}'

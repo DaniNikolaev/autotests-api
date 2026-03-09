@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjQ2OjI2Ljk1OTY3MSIsInVzZXJfaWQiOiIzMmY1NDQzYy1mMTQ4LTQxYWEtYmJlMy05MjdiMDRlMmE2MDcifQ.ew1oAS_-QZlTiZ3o88m4czhOmaKSHX4obutpCEE7QZo' \
+ -H 'content-length: 379' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Financial serious most hand prevent themselves few position.","courseId":"19078249-ffec-41e8-ab30-9b76f27b9267","maxScore":63,"minScore":29,"orderIndex":88,"description":"Training third increase PM few. Measure follow as social.\nHead I identify paper. Among staff you participant rather theory agency. Recent particularly them high cup fly.","estimatedTime":"4 weeks"}'

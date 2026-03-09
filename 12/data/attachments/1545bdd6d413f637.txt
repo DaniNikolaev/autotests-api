@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA5VDE1OjQ2OjI2LjExNTcyOSIsInVzZXJfaWQiOiIwYmRkYWIxMy1hZjNhLTQxMjYtODI3ZC1iZWQ2MmRiNGM1ZWQifQ.WER_OSqephZtxSZ2DXwl3W7yF8uUBYmm7ZOPLuZwP0Y' \
+ -H 'content-length: 439' \
+ -H 'content-type: application/json' \
+ -d '{"title":"World decision exactly necessary black TV former.","maxScore":51,"minScore":10,"description":"Expert indicate your. Parent quite usually central federal card quite.\nIssue small owner to officer. Mention medical professional name law then. Yet final yet cup soldier available surface just.","previewFileId":"5fa1ad51-0498-4d91-8aba-38394300b0ea","estimatedTime":"3 weeks","createdByUserId":"0bddab13-af3a-4126-827d-bed62db4c5ed"}'
